@@ -17,7 +17,7 @@ export async function GET(req: NextRequest) {
 
     const data = await res.json();
     return NextResponse.json(data, { status: 200 });
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.log("API Route Error:", error);
 
     return NextResponse.json(
