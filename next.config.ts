@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig: NextConfig = { 
+  images: {
+    domains: ['ru-msk-dr3-1.store.cloud.mts.ru',"app.plex-crm.ru"],
+  },
+
 };
 
 export default nextConfig;
+
+
